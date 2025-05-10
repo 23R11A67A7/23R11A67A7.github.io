@@ -10,12 +10,192 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(186, 113, 167);
+    background-color: rgb(141, 80, 130);
     color: black;
     padding: 10px;
 }
-li{
+header li{
     display: inline-block;
     font-size: 20px;
     padding:5px;
 }
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.box{
+    width: 500px;
+    padding: 50px;
+    transition: transform 0.5s;
+}
+.btn{
+    background-color:  rgb(251, 247, 250);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+
+}
+.summary{
+    font-size: 20px;
+    margin-top: 10px;/**space blw**/
+}
+.image{
+    border-radius: 50px;
+}
+.title{
+    font-size: 30px;
+}
+.head{
+    font-size: 30px;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgb(99, 29, 82);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows responsiveness */
+  margin-top: 20px;
+  
+}
+
+.project-box {
+  width: 250px;
+  height: 150px;
+  
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(227, 220, 225);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+   transition: transform 0.5s;
+}
+
+
+  .project-box button {
+  display: block;
+  margin: 10px auto 0; /* Top margin for spacing, auto for horizontal centering */
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(247, 239, 245);
+  color: black;
+  cursor: pointer;
+}
+footer{
+    padding:50px;
+    text-align: center;
+    background-color: rgb(238, 236, 238);
+    color: black;
+    font-size: large;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* SERVICES */
+.services-section {
+  background-color:rgb(77, 31, 66); 
+  padding: 40px 20px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background-color: rgb(81, 32, 67);
+  border: 1px solid #eddfec;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+   transition: transform 0.5s;
+}
+
+/* ABOUT */
+.about-section {
+  padding: 40px 20px;
+  background-color:rgb(88, 28, 72);
+  text-align: center;
+}
+
+.about-container {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+    transition: transform 0.5s;
+}
+
+/* CONTACT */
+.contact-section {
+  background-color: rgb(98, 41, 82);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ddb2d6;
+  width: 100%;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: rgb(81, 26, 66);
+  color: rgb(229, 169, 206);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.box:hover{
+
+  background-color: rgb(187, 136, 173);
+  transform: scale(1.1,1.1);
+}
+.service-box:hover{
+  background-color: rgb(206, 140, 181);
+  transform: scale(1.1,1.1);
+
+}
+  .project-box:hover{
+     background-color: rgb(203, 146, 189);
+  transform: scale(1.1,1.1);
+  }
+  .about-container:hover{
+     background-color:rgb(191, 134, 173) ;
+  transform: scale(1.1,1.1);
+  }
