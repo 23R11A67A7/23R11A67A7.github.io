@@ -58,44 +58,58 @@ a{
     font-size: 30px;
 }
 
-.projects-section {
-  text-align: center;
+#projects {
+  background-color: #ab82a3;
   padding: 40px 20px;
-  background-color: rgb(99, 29, 82);
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #333;
 }
 
 .projects-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap; /* Allows responsiveness */
-  margin-top: 20px;
-  
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.project-box {
+.project-card {
   width: 250px;
-  height: 150px;
-  
-  border-radius: 15px;
-  padding: 15px;
-  background-color: rgb(227, 220, 225);
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: left;
-   transition: transform 0.5s;
+  height: 200px;
+  background-color: rgb(241, 234, 239);
+  border-radius:  100px/ 50px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #443a43;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: turquoise;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
 
 
-  .project-box button {
-  display: block;
-  margin: 10px auto 0; /* Top margin for spacing, auto for horizontal centering */
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: none;
-  background-color: rgb(247, 239, 245);
-  color: black;
-  cursor: pointer;
-}
+
 footer{
     padding:50px;
     text-align: center;
@@ -112,7 +126,7 @@ footer{
 
 /* SERVICES */
 .services-section {
-  background-color:rgb(77, 31, 66); 
+  background-color:rgb(210, 173, 202); 
   padding: 40px 20px;
 }
 
@@ -124,7 +138,7 @@ footer{
 }
 
 .service-box {
-  background-color: rgb(81, 32, 67);
+  background-color: rgb(161, 103, 145);
   border: 1px solid #eddfec;
   padding: 20px;
   width: 250px;
@@ -137,7 +151,7 @@ footer{
 /* ABOUT */
 .about-section {
   padding: 40px 20px;
-  background-color:rgb(88, 28, 72);
+  background-color:rgb(173, 126, 159);
   text-align: center;
 }
 
@@ -151,7 +165,7 @@ footer{
 
 /* CONTACT */
 .contact-section {
-  background-color: rgb(98, 41, 82);
+  background-color: rgb(150, 126, 144);
   padding: 40px 20px;
   text-align: center;
 }
