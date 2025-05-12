@@ -1,14 +1,14 @@
 body {
       margin: 0;
       height: 100vh;
-      background-color: cyan;
+      background-color: rgb(123, 83, 164);
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .title {
-      background-color: red;
+      background-color: rgb(187, 128, 196);
       color: black;
       font-size: 2em;
       font-weight: bold;
@@ -28,20 +28,20 @@ body {
    
   @media only screen and (max-width: 600px) {
     .box {
-      background-color: yellow;
+      background-color: rgb(129, 121, 204);
       width: 100%;
       text-align: center;
     }
   }
   @media only screen and (min-width: 600px) {
     .box {
-      background-color: pink;
+      background-color: rgb(231, 3, 159);
       width: 50%;
     }
   }
   @media only screen and (min-width: 1000px) {
     .box {
-      background-color: red;
+      background-color: rgb(207, 157, 222);
       width: 44%;
     }
   }
